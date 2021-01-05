@@ -51,7 +51,17 @@ myDictionary = {
 }
 #%%
 print(myDictionary)
+
+
 # %%
 for key,value in myDictionary.items():
     print(f"The type for the key: {key} is {type(value)}")
 # %%
+
+if "o" in someString:
+    print("nope")
+
+
+# %%
+
+
