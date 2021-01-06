@@ -87,6 +87,7 @@ print(nextList)
 nextList.remove(9)
 print(nextList)
 # %%
+cityPopDict = {}
 cityPopDict["Houston"] = 4000000
 print(cityPopDict["Houston"])
 
@@ -100,4 +101,17 @@ voting_data.append({"county": "Jefferson", "registered_voters": 432438})
 # %%
 for i in voting_data:
     print(i)
+# %%
+# How many votes did you get?
+my_votes = int(input("How many votes did you get in the election? "))
+#  Total votes in the election
+total_votes = int(input("What is the total votes in the election? "))
+# Calculate the percentage of votes you received.
+percentage_votes = (my_votes / total_votes) * 100
+
+if percentage_votes > 50:
+    print("I received " + str(percentage_votes)+"% of the total votes.")
+
+else:    
+    print("I'm sorry, you lost.")
 # %%
