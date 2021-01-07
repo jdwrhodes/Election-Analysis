@@ -12,9 +12,9 @@ import csv
 import os
 
 #Assign a variable to load a file from a path
-file_to_load = os.path.join("Resources", "election_results.csv")
+file_to_load = os.path.join("./", "election_results.csv")
 #Assign a variable to save the file to a path
-file_to_save = os.path.join("./", "election_analysis.text")
+file_to_save = os.path.join("analysis", "election_analysis.text")
 
 #%%
 #Open the election results and read the file.
