@@ -11,10 +11,20 @@
 import csv
 import os
 
+#%%
+
+cwd = os.getcwd()
+
+print(cwd)
+
+#%%
+
 #Assign a variable to load a file from a path
-file_to_load = os.path.join("./", "election_results.csv")
+file_to_load = os.path.join("Resources", "election_results.csv")
 #Assign a variable to save the file to a path
 file_to_save = os.path.join("analysis", "election_analysis.text")
+
+print(file_to_load)
 
 #%%
 #Open the election results and read the file.
@@ -29,3 +39,5 @@ with open(file_to_load) as election_data:
     headers = next(file_reader)
     print(headers)
 # %%
+#Module-3\election_results.csv
+#C:\Users\josrh\Desktop\Stuff\ClassRepo\Module-3\election_results.csv
