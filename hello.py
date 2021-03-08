@@ -120,3 +120,6 @@ if percentage_votes > 50:
 else:    
     print("I'm sorry, you lost.")
 # %%
+name = ['hello', 'worldss']
+len(name[1])
+# %%
